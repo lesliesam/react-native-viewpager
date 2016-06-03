@@ -17,11 +17,11 @@ Demo project is [here](./Sample).
 
 ## Usage
 
-1. Run `npm install react-native-viewpager --save`
+1. Run `npm install react-native-viewpager-es6 --save`
 2. Code like this:
 
 ```
-var ViewPager = require('react-native-viewpager');
+var ViewPager = require('react-native-viewpager-es6');
 <ViewPager
     dataSource={this.state.dataSource}
     renderPage={this._renderPage}/>
